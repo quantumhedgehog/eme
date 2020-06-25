@@ -17,11 +17,13 @@ see supplemental material [Hloušek2019].
 
 [Hloušek2019] J. Hloušek, M. Dudka, I. Straka, and M. Ježek, Phys. Rev. Lett. 123, 153604 (2019). [10.1103/PhysRevLett.123.153604](https://doi.org/10.1103/PhysRevLett.123.153604), preprint: [arXiv:1812.02262](https://arxiv.org/abs/1812.02262).
 
-## Python implementation of the EME algorithm
+# Implementation of the EME algorithm for photon statistics retrieval
 
 Requirements:
 - Numpy
 - Scipy?
 - Numba (optional)
+
+## EME.py
 
 TODO
