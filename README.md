@@ -14,3 +14,14 @@ is determined by the input photon statistics c_n, n=1,...\infty,
 and the response matrix T_mn of the multi-channel detector, c_m = \sum_mn T_mn p_n.
 The inverse problem is [ill-posed](https://en.wikipedia.org/wiki/Well-posed_problem) and can be approached by several methods,
 see supplemental material [Hloušek2019].
+
+[Hloušek2019] J. Hloušek, M. Dudka, I. Straka, and M. Ježek, Phys. Rev. Lett. 123, 153604 (2019). [10.1103/PhysRevLett.123.153604](https://doi.org/10.1103/PhysRevLett.123.153604), preprint: [arXiv:1812.02262](https://arxiv.org/abs/1812.02262).
+
+## Python implementation of the EME algorithm
+
+Requirements:
+- Numpy
+- Scipy?
+- Numba (optional)
+
+TODO
