@@ -16,9 +16,9 @@ is determined by the input photon statistics c_n, n=1,...\infty,
 and the response matrix T_mn of the multi-channel detector, c_m = \sum_n T_mn p_n.
 The inverse problem is [ill-posed](https://en.wikipedia.org/wiki/Well-posed_problem) and can be approached by various methods, such as direct pseudoinverse, maximum likelihood estimation, or EME approach. The preformance of these methods is compared in Supplemental material of [Hloušek2019].
 
-[Dempster1977]  A. P. Dempster, N. M. Laird, and D. B. Rubin, J. Royal Stat. Soc. B39, 1 (1977).
-[Vardi1993]  Y. Vardi and D. Lee, J. Royal Stat. Soc. B55, 569 (1993).
-[Caponnetto2006] A. Caponnetto and E. De Vito, Found. Comput. Math. 7, 331 (2007).
+[Dempster1977]  A. P. Dempster, N. M. Laird, and D. B. Rubin, J. Royal Stat. Soc. B39, 1 (1977).\\
+[Vardi1993]  Y. Vardi and D. Lee, J. Royal Stat. Soc. B55, 569 (1993).\\
+[Caponnetto2006] A. Caponnetto and E. De Vito, Found. Comput. Math. 7, 331 (2007).\\
 [Hloušek2019] J. Hloušek, M. Dudka, I. Straka, and M. Ježek, Phys. Rev. Lett. 123, 153604 (2019). [10.1103/PhysRevLett.123.153604](https://doi.org/10.1103/PhysRevLett.123.153604), preprint: [arXiv:1812.02262](https://arxiv.org/abs/1812.02262).
 
 If you have any questions or feedback, do not hesitate to contact me: Miroslav Ježek, jezek(at)optics.upol.cz, [Quantum Optics Lab Olomouc](http://quantum.opticsolomouc.org/).
