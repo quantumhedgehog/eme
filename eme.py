@@ -12,18 +12,18 @@ from scipy.misc import factorial
 # mMax - nuber of detection channels
 # nMax - nuber of elements of photon statistics
 def DET(mMax,nMax,eta):
-	det=np.zeros((mMax+1,nMax+1))
+	det = np.zeros((mMax+1,nMax+1))
 	for m in range(mMax+1):
 		for n in range(nMax+1):
-			if m>n:
-				det[m][n]=0
-			elif m<n:
-				summary=[]
+			if m > n:
+				det[m][n] = 0
+			elif m < n:
+				summary = []
 				for j in range(0,m+1):
 					summary.append(((-1)**j)*sc.binom(m,j)*((1-eta)+((m-j)*eta)/mMax)**n)
-				det[m][n]=sc.binom(mMax,m)*np.sum(summary)
+				det[m][n] = sc.binom(mMax,m)*np.sum(summary)
 			else:
-				det[m][n]=(eta/mMax)**n*(factorial(mMax)/factorial(mMax-n))	
+				det[m][n] = (eta/mMax)**n*(factorial(mMax)/factorial(mMax-n))	
 	return det
 
 # photon statistics retrieval using EME algorithm
