@@ -32,4 +32,4 @@ Python implementation requirements:
 
 ## eme.py
 
-Python/numpy example of photon statistics retrieval from measured multichannel coincidences using the EME method.
+Minimal example of photon statistics retrieval from measured multichannel coincidences using the EME method.
