@@ -13,7 +13,7 @@ Each channel is sensed by a binary detector capable of distinguishing two cases 
 Also, these binary detectors can have a non-unity detection efficiency.
 The click statistics (also termed coincidence statistics) $c_m$, $m=0,...,M$,
 is determined by the input photon statistics $c_n$, $n=1,...\infty$,
-and the response matrix T_mn of the multi-channel detector, $c_m = \sum_n T_mn p_n$.
+and the response matrix T_mn of the multi-channel detector, $c_m = \sum_n T_{mn} p_n$.
 The inverse problem is [ill-posed](https://en.wikipedia.org/wiki/Well-posed_problem) and can be approached by various methods, such as direct pseudoinverse, maximum likelihood estimation, or EME approach. The performance of these methods is compared in Supplemental material of [Hloušek2019].
 
 [Dempster1977]  A. P. Dempster, N. M. Laird, and D. B. Rubin, J. Royal Stat. Soc. B39, 1 (1977).  
