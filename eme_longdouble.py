@@ -122,8 +122,3 @@ np.set_printoptions(floatmode='unique')
 print("reconstructed statistics:")
 print(p)
 
-# forward prediction of the click statistics
-c_rec = np.dot(det, p)
-dc = c_rec - c
-
-print("total variation distance of the input c and PNRD(EME(c)):", np.sum(np.abs(dc))/2)
