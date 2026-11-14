@@ -28,7 +28,8 @@ If you have any questions or feedback, do not hesitate to contact me: Miroslav J
 Python implementation requirements:
 - Numpy
 - Scipy (functions binom and factorial)
-- Numba (optional)
+- Mpmath (optional, for arbitrary precision evaluation of larger C matrices and smaller detector efficiencies)
+- Numba (optional, for faster iterations)
 
 ## eme.py
 
