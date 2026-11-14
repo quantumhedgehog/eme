@@ -33,3 +33,7 @@ Python implementation requirements:
 ## eme.py
 
 Minimal example of photon statistics retrieval from measured multichannel coincidences using the EME method.
+
+## eme_longdouble.py
+
+EME reconstruction implementation in longdouble precision with C matrix evaluated using mpmath library in arbitrary precision. Some points are improved and better documented.
