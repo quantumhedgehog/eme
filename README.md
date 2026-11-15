@@ -29,7 +29,8 @@ Python implementation requirements:
 - Numpy
 - Scipy (functions binom and factorial)
 - Mpmath (optional, for arbitrary precision evaluation of larger C matrices and smaller detector efficiencies)
-- Numba (optional, for faster iterations)
+- Numba (optional, for precompiled iterations in eme.py)
+- Cython (needed for precompiled cython implementation of eme_long_double_cython.py)
 
 ## eme.py
 
@@ -38,3 +39,7 @@ Minimal example of photon statistics retrieval from measured multichannel coinci
 ## eme_longdouble.py
 
 EME reconstruction implementation in longdouble precision with C matrix evaluated using mpmath library in arbitrary precision. Some points are improved and better documented.
+
+# eme_longdouble_cython.py, eme_longdouble_core.pyx
+
+EME reconstruction implementation in longdouble precision with iterations precomplied using sython and C matrix evaluated using mpmath library in arbitrary precision. Some points are improved and better documented.
