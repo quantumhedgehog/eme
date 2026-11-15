@@ -86,7 +86,7 @@ l = np.longdouble('1e-4')
 # regularization paramater lambda should be smaller than
 # 1/sqrt(total number of click of PNRD data, i.e. total number state copies measured)
 # and (probably) larger than 1/copies
-copies = int(1e7)
+copies = int(1e6)
 alpha = np.longdouble('0.75') # alpha=0.5 gives 1/sqrt(copies), alpha=1 gives 1/copies
 l = np.longdouble(copies)**(-alpha)
 print("lambda:", l)
