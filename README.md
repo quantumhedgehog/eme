@@ -40,6 +40,6 @@ Minimal example of photon statistics retrieval from measured multichannel coinci
 
 EME reconstruction implementation in longdouble precision with C matrix evaluated using mpmath library in arbitrary precision. Some points are improved and better documented.
 
-# eme_longdouble_cython.py, eme_longdouble_core.pyx
+## eme_longdouble_cython.py, eme_longdouble_core.pyx
 
 EME reconstruction implementation in longdouble precision with iterations precomplied using sython and C matrix evaluated using mpmath library in arbitrary precision. Some points are improved and better documented.
